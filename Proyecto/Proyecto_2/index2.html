@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa</title>
+    <link rel="stylesheet" href="/Proyecto/Proyecto_2/normalize.css">
+    <link rel="stylesheet" href="/Proyecto/Proyecto_2/skeleton.css">
+    <link rel="stylesheet" href="/Proyecto/Proyecto_2/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="/Proyecto/Proyecto_2/img/logo.png" alt="">Burger</h1>
+                </div>
+                <div class="two columns u-pull-rigth">
+                    <ul>
+                        <li class="submenu">
+                            <img src="/Proyecto/Proyecto_2/img/cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <tr>Imagen</tr>
+                                            <tr>Platos</tr>
+                                            <tr>Precio</tr>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Prueba una hamburguesa</h2>
+                        <p>todas las hamburguesas a 1000$</p>
+                        <form>
+                            <input classs="u-full-widt" type="text" placeholder="¿Cual te gustaria Probar?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns incono icono1">
+                    <p> 10 Hamburguesas diferentes<br>
+                    Explora las nuevas del menu
+                    </p>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div id="lista-platos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+        
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="Proyecto/Proyecto_2/img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Bebidas ilimitadas</p>
+                        <img src="Proyecto_2/img/estrellas.png">
+                        <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>         
+            <div class="four columns">
+                <div class="card">
+                    <img src="Proyecto_2/img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa con papas</h4>
+                        <p>Bebidas ilimitadas</p>
+                        <img src="Proyecto_2/img/estrellas.png">
+                        <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="Proyecto_2/img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa con  helado y papas</h4>
+                        <p>Bebidas ilimitadas</p>
+                        <img src="Proyecto_2/img/estrellas.png">
+                        <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="Proyecto_2/img/platillo4.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa sencilla</h4>
+                    <p>Bebidas ilimitadas</p>
+                    <img src="Proyecto_2/img/estrellas.png">
+                    <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>         
+        <div class="four columns">
+            <div class="card">
+                <img src="Proyecto_2/img/platillo5.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa con papas</h4>
+                    <p>Bebidas ilimitadas</p>
+                    <img src="Proyecto_2/img/estrellas.png">
+                    <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="Proyecto_2/img/platillo1.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa con  helado</h4>
+                    <p>Bebidas ilimitadas</p>
+                    <img src="/Proyecto/Proyecto_2/img/estrellas.png">
+                    <p class="precio">900$ <span class="u-pull-right">$</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="four colums">
+                <nav class="menu">
+                    <a class="enlace" href="#">Pedidos a domicilio</a>
+                    <a class="enlace" href="#">Pedidos en Linea</a>
+                    <a class="enlace" href="#">Pedidos por telefono</a>
+                    <a class="enlace" href="#">Menu</a>
+                    <a class="enlace" href="#">Bebidas</a>
+                </nav>
+            </div>
+            <div class="four columns">
+                <nav class="menu">
+                    <a class="enlace" href="#">Restaurante</a>
+                    <a class="enlace" href="#">Ubicacion</a>
+                    <a class="enlace" href="#">Telefono</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    
+    
+
+
+<script src="Proyecto_2.js"></script>
+
+</body>
+</html>
